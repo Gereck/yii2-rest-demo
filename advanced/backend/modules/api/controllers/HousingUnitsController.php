@@ -4,12 +4,9 @@ namespace backend\modules\api\controllers;
 
 class HousingUnitsController extends \yii\web\Controller
 {
-    public function actionIndex()
+    public function actionHousingUnits()
     {
-        echo 'This is the Housing units controller';
-        exit;
-        
-        return $this->render('index');
+        return $this->render('housing-units');
     }
 
 }
